@@ -1,0 +1,175 @@
+<div class="banner">
+    <div class="content">
+        <h1 class="mb-5"> DESCUBRA O MÊXICO A PARTIR DO PALADAR. <br> o melhor restaurante da região</h1><br><br>
+        <a routerLink="menu"> Faça seu já o  seu pedido <i class="bi bi-fire"></i></a>
+    </div>
+</div>
+
+
+<div class="container mt-4 mb-4">
+    <h1 class="text-center"> 𝕰𝖘𝖕𝖊𝖈𝖎𝖆𝖑𝖎𝖉𝖆𝖉𝖊𝖘 </h1>
+    <div class="row">
+        <div class="col-lg-3" *ngFor="let fd of foodData; index as i">
+            <div class="foodbox" *ngIf="i<4">
+                <img src="{{fd.foodImg}}"/>
+                <h1>{{fd.foodName}}</h1>
+                <p>{{fd.foodPrice | currency:'BRL'}}</p>
+            </div>
+        </div>
+    </div>
+    <a routerLink="menu" class="maisopcoes">+ Opções <i class="bi bi-fire"></i></a>
+</div>
+
+<section class="steps">
+
+    <div class="box">
+        <img class="img-responsive" src="https://thumbs.dreamstime.com/b/nachos-illustration-tomato-sauce-36660164.jpg">
+        <h3>Escolha sua comida favorita</h3>
+    </div>
+
+    <div class="box">
+        <img class="img-responsive" src="https://st.depositphotos.com/1814083/1765/v/950/depositphotos_17651781-stock-illustration-funny-pizza-delivery-boy-riding.jpg">
+        <h3>Entrega rápida e gratuita</h3>
+    </div>
+
+    <div class="box">
+        <img class="img-responsive" src="https://media.istockphoto.com/vectors/hand-giving-money-to-another-hand-color-icon-vector-illustration-and-vector-id1093719722?k=20&m=1093719722&s=170667a&w=0&h=xeLAgTpLZfx-Je7ifQLhehZr4tW1c5i2eadX6HsGmDs=">
+        <h3> Forma de pagamento fácil e segura</h3>
+    </div>
+
+    <div class="box">
+        <img class="img-responsive" src="https://thumbs.dreamstime.com/b/o-homem-est%C3%A1-comendo-fast-food-conceito-de-alimenta%C3%A7%C3%A3o-n%C3%A3o-saud%C3%A1vel-e-estilo-vida-errado-ilustra%C3%A7%C3%A3o-vetorial-no-desenho-197110733.jpg">
+        <h3>Sua comida no conforto da sua casa </h3>
+    </div>
+
+</section>
+
+    <!-- COMEÇA GALERIA -->
+
+    <section class="gallery" id="gallery">
+        <h1 class="heading"> 𝕲𝖆𝖑𝖊𝖗𝖎𝖆 </h1>
+    
+        <div class="box-container">
+    
+        <div class="box">
+            <img src="https://t4.ftcdn.net/jpg/02/57/47/71/240_F_257477148_kqlxBSBlGSd4JsSE4bt0Icq2aZAwfPRF.jpg" alt="">
+            <div class="content">
+                <h3>Lá Michelada </h3>
+                <p>Para quem gosta de sabores e temperos fortes não pode deixar de conhecer os pratos típicos da colunária mexicana,
+                   ricos em sabor, são sucesso no mundo inteiro e podem ser feitos em casa sem muito trabalho.</p>
+                    
+            </div>
+        </div>
+    
+        <div class="box">
+            <img src="https://t3.ftcdn.net/jpg/00/77/92/14/240_F_77921492_c4kdsNZU7wb6J90M7rQmyRdOSLx63rMW.jpg" alt="">
+            <div class="content">
+                <h3>Burrito </h3>
+                <p>Para quem gosta de sabores e temperos fortes não pode deixar de conhecer os pratos típicos da colunária mexicana,
+                    ricos em sabor, são sucesso no mundo inteiro e podem ser feitos em casa sem muito trabalho.</p>
+                    
+            </div>
+        </div>
+    
+        <div class="box">
+            <img src="https://t4.ftcdn.net/jpg/03/12/46/51/240_F_312465164_SLE2knVGGCsaI60TrWi6N6nTJITnENeX.jpg" alt="">
+            <div class="content">
+                <h3>Guacamole </h3>
+                <p>Para quem gosta de sabores e temperos fortes não pode deixar de conhecer os pratos típicos da colunária mexicana,
+                    ricos em sabor, são sucesso no mundo inteiro e podem ser feitos em casa sem muito trabalho.</p>
+                    
+            </div>
+        </div>
+    
+        <div class="box">
+            <img src="https://t3.ftcdn.net/jpg/03/01/81/94/240_F_301819444_VWRpS5E6JBYqByrH9HoAlu59w8wdwOqI.jpg" alt="">
+            <div class="content">
+                <h3>Pizza </h3>
+                <p>Para quem gosta de sabores e temperos fortes não pode deixar de conhecer os pratos típicos da colunária mexicana,
+                    ricos em sabor, são sucesso no mundo inteiro e podem ser feitos em casa sem muito trabalho.</p>
+                    
+            </div>
+        </div>
+    
+        <div class="box">
+            <img src="https://t4.ftcdn.net/jpg/03/33/00/63/240_F_333006344_dBziQtEjBTdUIwEei2zSUQQLBVR5iVPC.jpg" alt="">
+            <div class="content">
+                <h3>Hamburguer </h3>
+                <p>Para quem gosta de sabores e temperos fortes não pode deixar de conhecer os pratos típicos da colunária mexicana,
+                    ricos em sabor, são sucesso no mundo inteiro e podem ser feitos em casa sem muito trabalho.</p>
+                    
+            </div>
+        </div>
+    
+        <div class="box">
+            <img src="https://t4.ftcdn.net/jpg/03/62/43/65/240_F_362436538_feLwKqaZeyeqF3SYXCNYI8mapQEvrxrN.jpg" alt="">
+            <div class="content">
+                <h3>Nachos </h3>
+                <p>Para quem gosta de sabores e temperos fortes não pode deixar de conhecer os pratos típicos da colunária mexicana,
+                    ricos em sabor, são sucesso no mundo inteiro e podem ser feitos em casa sem muito trabalho.</p>
+                    
+            </div>
+        </div>
+    
+        <div class="box">
+            <img src="https://t4.ftcdn.net/jpg/00/83/43/35/240_F_83433594_0xo0M4r8WPJFqVktFUu7ubkn831t4kpu.jpg" alt="">
+            <div class="content">
+                <h3> Drink </h3>
+                <p>Para quem gosta de sabores e temperos fortes não pode deixar de conhecer os pratos típicos da colunária mexicana,
+                    ricos em sabor, são sucesso no mundo inteiro e podem ser feitos em casa sem muito trabalho.</p>
+                    
+            </div>
+        </div>
+    
+        <div class="box">
+            <img src="https://t4.ftcdn.net/jpg/03/47/41/71/240_F_347417182_vLx71yuwkFLKahgWGmVgDAcRD4MoFAh0.jpg" alt="">
+            <div class="content">
+                <h3>Pozole </h3>
+                <p>Para quem gosta de sabores e temperos fortes não pode deixar de conhecer os pratos típicos da colunária mexicana,
+                    ricos em sabor, são sucesso no mundo inteiro e podem ser feitos em casa sem muito trabalho.</p>
+                    
+            </div>
+        </div>
+    
+        <div class="box">
+            <img src="https://i.pinimg.com/564x/7d/81/9a/7d819aa09c4f70443bfc9f7ff20677ca.jpg" alt="">
+            <div class="content">
+                <h3>Lá Dulce </h3>
+                <p>Para quem gosta de sabores e temperos fortes não pode deixar de conhecer os pratos típicos da colunária mexicana,
+                    ricos em sabor, são sucesso no mundo inteiro e podem ser feitos em casa sem muito trabalho.</p>
+                    
+            </div>
+        </div>
+    
+        <div class="box">
+            <img src="https://t3.ftcdn.net/jpg/04/37/38/34/240_F_437383428_Zvyr2amtRfNbCJvKjqBso0MOZicO5BLV.jpg" alt="">
+            <div class="content">
+                <h3>Tacos </h3>
+                <p>Para quem gosta de sabores e temperos fortes não pode deixar de conhecer os pratos típicos da colunária mexicana,
+                    ricos em sabor, são sucesso no mundo inteiro e podem ser feitos em casa sem muito trabalho.</p>
+                    
+            </div>
+        </div>
+    
+        <div class="box">
+            <img src="https://t3.ftcdn.net/jpg/03/23/63/08/240_F_323630805_KdKT25MyCl2yrxI4erbpH7cK7PMFNtrY.jpg" alt="">
+            <div class="content">
+                <h3>Pizza Mêxicana </h3>
+                <p>Para quem gosta de sabores e temperos fortes não pode deixar de conhecer os pratos típicos da colunária mexicana,
+                    ricos em sabor, são sucesso no mundo inteiro e podem ser feitos em casa sem muito trabalho.</p>
+                    
+            </div>
+        </div>
+    
+        <div class="box">
+            <img src="https://t3.ftcdn.net/jpg/04/80/84/90/240_F_480849014_JmPuFd8jNb8F96FpK6MjwsXCTNJxYlRM.jpg" alt="">
+            <div class="content">
+                <h3>Harburguer taco </h3>
+                <p>Para quem gosta de sabores e temperos fortes não pode deixar de conhecer os pratos típicos da colunária mexicana,
+                    ricos em sabor, são sucesso no mundo inteiro e podem ser feitos em casa sem muito trabalho.</p>
+            </div>
+        </div>
+    
+    </div>
+    </section>
+    <!-- Terminando galeria -->

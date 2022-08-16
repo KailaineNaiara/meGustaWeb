@@ -1,0 +1,29 @@
+<div class="container mt-5 mb-5">
+    <h1 class="text-left">𝕱𝖔𝖗𝖒𝖆 𝖉𝖊 𝖕𝖆𝖌𝖆𝖒𝖊𝖓𝖙𝖔</h1>
+    <div class="row">
+        <div class="col-lg-6" *ngIf="menuData">
+
+            <a routerLink="../../menu" class="btn btn-sm btn-dark mb-3"> Voltar</a>
+
+            <img src="{{menuData[0].foodImg}}" width="100%" />
+            <h1>{{menuData[0].foodName}}</h1>
+            <p>{{menuData[0].foodDetails}}</p>
+            <p>{{menuData[0].foodPrice | currency:'BRL'}}</p>
+        </div>
+
+        <div class="col-lg-6">
+            <h1 class="text-center"> 𝕯𝖊𝖙𝖆𝖑𝖍𝖊𝖘 𝖉𝖔 𝖈𝖑𝖎𝖊𝖓𝖙𝖊 </h1>
+            <form action="">
+                <input type="text" class="form-control" placeholder="Nome completo" />
+                <input type="text" class="form-control" placeholder="Telefone" />
+                <input type="text" class="form-control" placeholder="Endereço" />
+                <input type="number" class="form-control" placeholder="CEP" />
+                <textarea class="form-control" placeholder="Observações"></textarea>
+                <button class="btn btn-md btn-dark mt-3"> Fazer Pedido </button>
+            </form>
+
+
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,57 @@
+.foodbox{
+    margin-top: 30px;
+    padding: 30px 30px ;
+    /* padding: 30px; */
+    background: rgba(255, 255, 255, 0.698);
+    box-shadow: 1 .1rem 10px rgba(0, 0, 0, 1);
+    border: 10px solid rgb(0, 0, 0) ;
+    border-radius: .5rem;
+    text-align: center;
+    flex: 10 10 10rem;
+
+}
+
+.foodbox img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+
+}
+
+h1{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+
+.foodbox h1{
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: BOLD;
+} 
+
+.maisopcoes{
+    text-decoration: none;
+    background-color: black;
+    color: red;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+
+.btn-pedido{
+    color: red;
+    background-color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-pedido:hover{
+    background-color: red;
+    color: black;
+}
+

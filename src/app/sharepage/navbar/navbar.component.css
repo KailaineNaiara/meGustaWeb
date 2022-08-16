@@ -1,0 +1,29 @@
+.navbar .navbar-brand{
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+    /* font-style: italic; */
+    margin-left: 10%;
+}
+
+a{
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
+a:hover{
+    color: rgba(255, 0, 0, 0.445);
+}
+
+.navbar-toggler {
+    color: aliceblue;
+}
+
+span{
+    color: aliceblue;
+}
+
+i{
+    font-size: 32px;
+    margin: 25px;
+}
